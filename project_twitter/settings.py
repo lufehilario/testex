@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-6=w3+g1o@=@rk$uxak18sr%ic#
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # Defina os hosts permitidos para a aplicação
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost',]  # Lista de hosts permitidos
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'hilario2.pythonanywhere.com']  # Lista de hosts permitidos
 
 # Lista de origens confiáveis para CSRF (Cross-Site Request Forgery) para segurança adicional
 CSRF_TRUSTED_ORIGINS = []
